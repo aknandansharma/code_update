@@ -1,4 +1,2 @@
-t = ["apple", "banana", "cherry"]
-tropical = ["mango", "pineapple", "papaya"]
-thislist.extend(tropical)
-print(thislist)
+= [x for x in range(10) if x > 5]
+# print(newList)
