@@ -1,6 +1,3 @@
 "use strict";
-// src/index.ts
-const greet = (name) => {
-    return `Hello, ${name}!`;
-};
-console.log(greet("TypeScript"));
+let message = "Hello, World! Aknandan";
+console.log(message);
