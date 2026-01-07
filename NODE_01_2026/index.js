@@ -20,6 +20,25 @@ function objectDetaiils(name, age) {
     this.age = age;
 }
 
-let fak = new objectDetaiils("aknandan", 27);
-console.table(fak)
+// let fak = new objectDetaiils("aknandan", 27);
+// // console.table(fak)
 
+// function Person () {};
+
+
+const anu = {
+    name: "Aknandan Sharma",
+    walk() {
+        console.log("Walking");
+    }
+}
+
+const dog = Object.create(anu);
+
+dog.bark = function() {
+    console.log("Barking");
+}
+
+console.log(dog.name);
+dog.walk();
+dog.bark();
