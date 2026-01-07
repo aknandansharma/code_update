@@ -1,0 +1,20 @@
+{
+  "name": "aknandan",
+  "version": "1.0.0",
+  "description": "This is for code_testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "CODE_UPDATE"
+  },
+  "author": "aknandan sharma",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "nodemon": "^3.1.11"
+  }
+}
