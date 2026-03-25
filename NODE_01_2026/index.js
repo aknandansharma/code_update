@@ -42,3 +42,5 @@ dog.bark = function() {
 console.log(dog.name);
 dog.walk();
 dog.bark();
+
+// sandeep
